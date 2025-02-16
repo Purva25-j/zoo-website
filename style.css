@@ -1,0 +1,234 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.heading{
+	
+	color: rgb(65, 3, 65);
+	font-size: 25px;
+    margin-top: -30px;
+}
+.hclass{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.zoo-logo {
+    width: 65px; 
+    height: auto;
+    margin-right: 15px; 
+    vertical-align: middle; 
+    margin-left: 10px; 
+}
+
+.para{
+	font-size: 20px;
+	color: rgb(9, 8, 7);
+	margin: 90px;
+	padding: 100px;
+	background-image: url('bg.4.jpg');
+	opacity: 0.5;
+	text-align: center;
+	border: 2px solid green;
+    border-radius: 199px;
+	
+	
+}
+.hclass{
+    display: flex;
+	background-color:#dee0a4;
+	height: 60px;
+    justify-content: space-around;
+
+}
+.anc{
+	font-size: 25px;
+    margin: 20px;
+	color: rgb(79, 156, 30);
+	margin:5px;
+	padding: 5px;
+    text-decoration: none;
+    align-items: center;
+    font-weight: bolder;
+
+}
+ 
+
+
+/* for about us page */
+.grid-container{
+	display: flex;
+}
+.ahead{
+	font-size: 39px;
+    color: rgb(65, 3, 65);
+    text-align: center;
+    margin-bottom: 18px;
+    margin-top: -14px;
+}
+.wiki{
+	margin: 10px;
+	padding: 20px;
+    font-size: 20px;
+	border: yellow solid 10px;
+	box-shadow: 2px 3px 9px green;
+	
+}
+.history{
+	text-align:center;
+	border: black solid 5px;
+}
+.img1{
+	background-image: url(bg.1.jpg);
+	height: 800px;
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header1{
+	display: flex;
+	justify-content: end;
+	margin-left: 350px;
+}
+
+.secondsection{
+	background-color: #dee0a4;
+	padding:50px;
+}
+
+/*for fee section*/
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+#tickets {
+    background-color: #e0ee99; /* Light green background for ticket section */
+}
+
+#facilities {
+    background-color: #a6e2a8; /* Slightly darker green for facilities */
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+ul li:before {
+    content: "✔️"; /* Adding a checkmark before each item */
+    margin-right: 10px;
+}
+
+
+/*footer section*/
+
+footer{
+	background-color:rgb(8 148 40);
+	color:white;
+	height:200px;
+}
+#add{
+	position: relative;
+	margin-left: 950px;
+	padding:30px;
+	font-size: 20px;
+}
+
+.footer a{
+	text-decoration: none;
+	color:white;
+	padding:2px;
+}
+.footer{
+	display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: space-around;
+    padding: 30px;
+}
+.footer-right{
+	text-align: center;
+	color:#092a03;
+	margin-top: -25px;
+	
+}
+
+@media (min-width: 768px) {
+    /* Adjust header layout for smaller screens */
+    .hclass {
+        
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        align-items: center;
+        height: 70px;
+    }
+    .header1 {
+        margin-left: 0;
+        justify-content: center;
+       
+    }
+
+    /* Reduce the size of the heading */
+    .heading {
+        font-size: 22px;
+        margin-top: 1px;
+    }
+
+    /* Adjust the padding and margin of the paragraph */
+    .para {
+        margin: 20px;
+        padding: 20px;
+        font-size: 16px;
+        border-radius: 46px;
+    
+    }
+
+    /* Stack the grid items vertically */
+    .grid-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wiki {
+        width: 80%;
+        margin: 10px;
+        font-size: 16px;
+    }
+
+    /* Adjust section padding */
+    .secondsection {
+        padding: 30px;
+    }
+
+    /* Adjust font size in lists */
+    ul li {
+        font-size: 16px;
+    }
+
+    /* Adjust the address section layout */
+    #add {
+        margin-left: 0;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    /* Modify the footer to stack elements vertically */
+    .footer {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .footer-right {
+        margin-top: 10px;
+    }
+}
+
